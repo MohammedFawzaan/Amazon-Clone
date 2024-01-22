@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+/* Nav Bar */
+.navbar{
+    height: 70px;
+    background-color: rgb(14, 14, 34);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* Hover Property on nav bar */
+.border:hover{
+    border: 1.5px solid white;
+}
+/* Amazon Logo */
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+}
+/* Address Bar */
+.nav-address{
+    cursor: pointer;
+}
+.add-first{
+    color: #CCCC;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-second{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+/* Search Bar */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 980px;
+    height: 45px;
+    border-radius: 5px;
+}
+.nav-search:hover{
+    border-style: solid;
+    border-radius: 1px;
+    border-color: orange;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 80px;
+    text-decoration-color: #0f1111;
+    font-weight: bold;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+}
+.search-icon{
+    color: #0f1111;
+    width: 45px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+/* nav-signin */
+.signin{
+    cursor: pointer;
+}
+span{
+    font-size: 0.9rem;
+}
+.nav-second{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.nav-cart > i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 1rem;
+    font-weight: 700;
+}
+/* Panel */
+.panel{
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 40px;
+    color: white;
+}
+.panel-all{
+    cursor: pointer;
+}
+.panel-options{
+    cursor: pointer;
+    display: flex;
+    gap: 20px;
+    width: 80%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+/* Hero Section */
+.hero-section{
+    background-image: url(hero_image.jpg);
+    background-size: cover;
+    height: 400px;
+    /* height: 600px; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-section:hover{
+    cursor: pointer;
+}
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 93%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+    /* margin-bottom: 280px; */
+}
+.hero-msg > a {
+    color: #007185;
+}
+/* Shop Section */
+.shop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #b1d5ce;
+}
+.box{
+    height: 400px;
+    width: 23%;
+    /* border: 2px solid black; */
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.box-img{
+    cursor: pointer;
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.box-style{
+    color: rgb(52, 118, 140); 
+    text-decoration: underline; 
+    cursor: pointer;
+}
+/* Tool sign in bar */
+.Tool{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+}
+.my-button{
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 30px;
+    width: 250px;
+    border: none;
+    border-radius: 6px;
+    background-color: #FFC107;
+    font-weight: bold;
+}
+.middle-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Foot panel */
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.85rem;
+    margin-top: 15px;
+}
+.foot-panel1:hover{
+    cursor: pointer;
+    
+}
+.foot-panel2{
+    background-color: #222f3d;
+    height: 400px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.mar{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+ul p{
+    font-size: 0.9rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+.foot-panel-3{
+    background-color: #222f3d;
+    height: 100px;
+    border-top: 0.1px solid white;
+    border-bottom: 0.5px solid white;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot-panel4{
+    background-color: #1a1f1f;
+    height: 80px;
+    color: white;
+    font-size: large;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid white;
+}
